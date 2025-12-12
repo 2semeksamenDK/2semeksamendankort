@@ -25,10 +25,6 @@ header {
   width: 200px;
 }
 
-p {
-  font-size: 20px;
-}
-
 .button_forside {
   background-color: white;
   color: #001b95;
@@ -50,6 +46,28 @@ p {
 .grid-1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.container-farve {
+  background-color: #ebe2d8;
+  padding: 40px;
+  border-radius: 12px;
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.footerlogo {
+  text-align: center;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding-left: 300px;
+  font-size: 15px;
 }
 
 nav a {
