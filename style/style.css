@@ -29,6 +29,24 @@ p {
   font-size: 20px;
 }
 
+.button_forside {
+  background-color: white;
+  color: #001b95;
+  border: 1.5px solid #001b95;
+  border-radius: 50px;
+  padding: 12px 40px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_forside:hover {
+  background-color: #001b7a;
+  color: white;
+}
 .grid-1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
