@@ -49,6 +49,11 @@ header {
   align-items: center;
 }
 
+.grid-1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .container-farve {
   background-color: #ebe2d8;
   padding: 40px;
@@ -109,7 +114,6 @@ nav a {
   padding-bottom: 7rem;
 }
 
-
 @media screen and (max-width: 800px) {
   .burger {
     display: block;
@@ -148,8 +152,3 @@ nav a {
     font-size: 24px;
   }
 }
-
-
-
-
-
