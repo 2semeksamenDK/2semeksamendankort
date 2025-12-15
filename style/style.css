@@ -109,6 +109,7 @@ nav a {
   padding-bottom: 7rem;
 }
 
+
 @media screen and (max-width: 800px) {
   .burger {
     display: block;
@@ -147,3 +148,8 @@ nav a {
     font-size: 24px;
   }
 }
+
+
+
+
+
